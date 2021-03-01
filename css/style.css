@@ -328,37 +328,6 @@ section#timeline article div.inner h2::after {
   background: #fca311;
 }
 
-/* section#timeline article:nth-child(1) div.inner h2 {
-  background: #fca311;
-}
-section#timeline article:nth-child(1) div.inner h2:after {
-  background: #fca311;
-}
-section#timeline article:nth-child(2) div.inner h2 {
-  background: #fca311;
-}
-section#timeline article:nth-child(2) div.inner h2:after {
-  background: #fca311;
-}
-section#timeline article:nth-child(3) div.inner h2 {
-  background: #e67e22;
-}
-section#timeline article:nth-child(3) div.inner h2:after {
-  background: #e67e22;
-}
-section#timeline article:nth-child(4) div.inner h2 {
-  background: #1abc9c;
-}
-section#timeline article:nth-child(4) div.inner h2:after {
-  background: #1abc9c;
-}
-section#timeline article:nth-child(5) div.inner h2 {
-  background: #9b59b6;
-}
-section#timeline article:nth-child(5) div.inner h2:after {
-  background: #9b59b6;
-} */
-
 section.skills .container h1 {
   text-align: center;
   margin-bottom: 2rem;
@@ -374,14 +343,15 @@ section.skills .container ul li {
   float: left;
   /* width: 200px;
     height: 200px; */
-  margin-right: 0.6rem;
-  padding: 2rem;
+  padding: 2.5rem; 
 }
 
 section.skills .container ul li img:hover {
   transform: scaleX(-1);
   transition: 0.5s ease;
 }
+
+
 
 section.projects h1 {
   text-align: center;
