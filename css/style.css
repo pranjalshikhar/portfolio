@@ -85,7 +85,13 @@ header {
   margin: 0 auto;
 }
 
-header nav .left a {
+header nav .left ul li {
+  float: left;
+  list-style-type: none;
+  
+}
+
+header nav .left ul a {
   color: var(--pure);
   text-decoration: none;
   margin-right: 2rem;
@@ -93,14 +99,14 @@ header nav .left a {
   transition: all 0.3s ease;
 }
 
-header nav .left a:hover {
+header nav .left ul a:hover {
   color: var(--primary);
 }
 
 header nav {
   padding: 2rem 0;
-
   overflow: hidden;
+  position: sticky;
   top: 0;
   width: 100%;
   display: block;
@@ -110,6 +116,7 @@ header nav {
 header nav .branding {
   margin-right: 3rem;
 }
+
 
 .btn {
   padding: 0.8rem 3rem;
